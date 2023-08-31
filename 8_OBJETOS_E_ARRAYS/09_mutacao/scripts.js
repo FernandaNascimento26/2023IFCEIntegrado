@@ -3,6 +3,7 @@ let pessoa = {
 }
 
 let pessoa2 = pessoa;
+console.log(pessoa2);
 
 let pessoa3 = {
   nome: "Paulo"

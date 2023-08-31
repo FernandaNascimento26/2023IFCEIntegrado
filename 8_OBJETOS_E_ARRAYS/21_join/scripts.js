@@ -1,10 +1,5 @@
-let frase = "Testando o método split";
+let exemplo = ["O", "rato", "roeu", "a", "roupa"]
 
-let palavras = frase.split(" ");
+console.log(exemplo.join("-"));
 
-let novaFrase = palavras.join("@");
-
-console.log(novaFrase);
-
-console.log(palavras.join(" "));
 

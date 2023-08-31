@@ -14,3 +14,5 @@ let adicionais = {
 Object.assign(carro, adicionais);
 
 console.log(carro);
+
+console.log(Object.keys(carro));

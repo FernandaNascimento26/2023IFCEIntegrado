@@ -1,11 +1,11 @@
 let frase = "Testando o método split";
 
-console.log(frase.split(" "));
+console.log("frase inteira: "+frase);
 
-let palavras = frase.split(" ");
+console.log("frase separada:"+frase.split(" "));
 
-console.log(palavras);
 
 let produtos = "Banana;Maçã;Jaca;Pera;Bola;Tapete";
+console.log("frase inteira: "+produtos);
 
 console.log(produtos.split(';'));
